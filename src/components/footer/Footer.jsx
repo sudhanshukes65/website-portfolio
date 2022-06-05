@@ -7,24 +7,24 @@ import {GrTwitter} from 'react-icons/gr'
 const footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>EGATOR</a>
+      <a href="#" className='footer__logo'>SUDHANSHU KESARWANI</a>
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience ">Experience</a></li>
-        <li><a href="#Services">Services</a></li>
+        <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com"><ImFacebook2/></a>
-        <a href="https://instagram.com"><GrInstagram/></a>
-        <a href="https://twitter.com"><GrTwitter/></a>
+        <a href="https://www.facebook.com/sudhanshu.kesarwani.16"><ImFacebook2/></a>
+        <a href="https://www.instagram.com/sudhanshu_kes/"><GrInstagram/></a>
+        <a href="https://twitter.com/sudhanshukes65"><GrTwitter/></a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; EGATOR Tutorials. All rights reserved</small>
+        <small>&copy; sudhanshu kesarwani . All rights reserved</small>
       </div>
 
 

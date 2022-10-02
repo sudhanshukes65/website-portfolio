@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
@@ -59,6 +59,20 @@ const Portfolio = () => {
             </div>
         </article>
 
+        <article className="portfolio__item">
+
+          <div className="portfolio__item-image">
+            <img src={IMG4 } alt="" />
+
+          </div>
+          <h3>This is a crypto currency trakcer(using API)</h3>
+            <div className="portfolio__item-cta">
+            <a href="https://github.com/sudhanshukes65/Crypto-tracker-using-api" className="btn" target="_blank">Github</a>
+            <a href="https://crypto-tracker-bysk.netlify.app/" className="btn btn-primary"  target="_blank">Live Demo</a>
+
+            </div>
+        </article>
+
         {/* <article className="portfolio__item">
 
           <div className="portfolio__item-image">
@@ -67,22 +81,8 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
             <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">Github</a>
-            <a href="https://github.com" className="btn btn-primary"  target="_blank">Live Demo</a>
-
-            </div>
-        </article>
-
-        <article className="portfolio__item">
-
-          <div className="portfolio__item-image">
-            <img src={IMG1 } alt="" />
-
-          </div>
-          <h3>This is a portfolio item title</h3>
-            <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">Github</a>
-            <a href="https://github.com" className="btn btn-primary"  target="_blank">Live Demo</a>
+            <a href="https://github.com/sudhanshukes65/Crypto-tracker-using-api" className="btn" target="_blank">Github</a>
+            <a href="https://crypto-tracker-bysk.netlify.app/" className="btn btn-primary"  target="_blank">Live Demo</a>
 
             </div>
         </article> */}

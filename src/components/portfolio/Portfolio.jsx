@@ -5,7 +5,7 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfilioPhotoo.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/flappy.png'
 
 
 
@@ -17,6 +17,24 @@ const Portfolio = () => {
       <h2>Projects</h2>
 
       <div className="container portfolio__container">
+
+      <article className="portfolio__item">
+
+<div className="portfolio__item-image">
+  <img src={IMG6 } alt="" />
+
+</div>
+<br />
+<h2>Flappy Bird Game </h2>
+<p>Made with ReactJs using Styled Components </p>
+<br />
+  <div className="portfolio__item-cta">
+  <a href="https://github.com/sudhanshukes65/flappyBirdReact" className="btn" target="_blank">Github</a>
+  <a href="https://flappy-bird-bysk.vercel.app//" className="btn btn-primary"  target="_blank">Live Demo</a>
+
+  </div>
+</article>
+
         <article className="portfolio__item">
 
           <div className="portfolio__item-image">

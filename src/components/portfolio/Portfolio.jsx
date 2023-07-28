@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfilioPhotoo.png'
 import IMG6 from '../../assets/flappy.png'
+import IMG7 from '../../assets/netflix.png'
 
 
 
@@ -17,6 +18,23 @@ const Portfolio = () => {
       <h2>Projects</h2>
 
       <div className="container portfolio__container">
+
+      <article className="portfolio__item">
+
+<div className="portfolio__item-image">
+  <img src={IMG7 } alt="" />
+
+</div>
+<br />
+<h2>Netflix Clone</h2>
+<p>Made with ReactJs,firebase, redux toolkit using styled components </p>
+<br />
+  <div className="portfolio__item-cta">
+  <a href="https://github.com/sudhanshukes65/Netflix-clone-bysk" className="btn" target="_blank">Github</a>
+  <a href="https://netflix-clone-bysk.vercel.app/" className="btn btn-primary"  target="_blank">Live Demo</a>
+
+  </div>
+</article>
 
       <article className="portfolio__item">
 
